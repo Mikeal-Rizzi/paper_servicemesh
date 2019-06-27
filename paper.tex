@@ -18,8 +18,8 @@
 \newcommand{\secref}[1]{Section~\ref{#1}}
 
 \newcommand{\dong}[1]{\textcolor{blue}{[dong: #1]}}
-\newcommand{\wensheng}[1]{\textcolor{red}{[wensheng: #1]}}
-\newcommand{\gaoyu}[1]{\textcolor{green}{[gaoyu: #1]}}
+\newcommand{\libin}[1]{\textcolor{red}{[libin: #1]}}
+\newcommand{\zhao}[1]{\textcolor{green}{[zhao: #1]}}
 
 \newcommand{\cmark}{\ding{52}}
 \newcommand{\xmark}{\ding{56}}
@@ -52,6 +52,15 @@
 \maketitle
 
 \begin{abstract}
+Microservice architecture is widely used by Internet companies nowadays.
+It is designed for the complex services.
+Developers can easily deploy and manage a single service.
+However, it also raise the complexity of the whole system, which makes the communication components between services bloated.
+Service mesh is introduced to improve the management of the large amounts of microserivces.
+Regardless of the design and implement of the single service, service mesh can work directly on the container of the service with the help of container technology, e.g. Docker.
+In addition to manage the network communication, service mesh also have the various abilities, e.g., service registration and service discovery, of the tradditional microservices architecture.
+We presant this paper to make a simple survey on service mesh, to introduce its history and applications.
+Besides, we concretely introduce a popular architecture, Istio, to help better understand the principle of service mesh.
 \cite{li2019service}
 \end{abstract}
 
@@ -60,6 +69,7 @@
 \end{IEEEkeywords}
 
 \section{Introduction} \label{sec:intro}
+\cite{li2019service}
 
 \section{Service Mesh} \label{sec:mesh}
 
